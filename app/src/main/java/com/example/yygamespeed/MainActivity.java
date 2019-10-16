@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         txt = findViewById(R.id.txt);
+        txt.setText("添加分子");
 
     }
 }
